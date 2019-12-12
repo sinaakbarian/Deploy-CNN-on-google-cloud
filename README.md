@@ -18,12 +18,12 @@ To test the app on a local server:
          gunicorn -b :8889 app:app -t 120 --graceful-timeout 60
          
 Then open a browser go to http://localhost:8889/ and use the app.
-To deploy it on the GCP you need to install GCP SDK: https://cloud.google.com/sdk/install
-Once initialization is done
+To deploy it on the GCP you need to install GCP SDK: https://cloud.google.com/sdk/install.
+Once initialization is done:
                 
                 gcloud init
              
-The app will be deployed with the following command
+The app will be deployed with the following command:
 
                 gcloud app deploy
                 
