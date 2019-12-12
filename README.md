@@ -13,6 +13,9 @@ Clone to this GitHub and download the files:
 Install requirement packages:
         
          pip install -r requirements.txt 
+Run the following code to download a pretrained weights of InceptionResNetV2 model:
+         
+         python download_model.py
 To test the app on a local server:
 
          gunicorn -b :8889 app:app -t 120 --graceful-timeout 60
