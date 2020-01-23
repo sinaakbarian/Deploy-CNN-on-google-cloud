@@ -19,7 +19,7 @@ numpy==1.16.5
 Pillow==6.2.1
 protobuf==3.10.0
 PyYAML==5.1.2
-scipy==0.19.1
+scipy==1.2.0
 six==1.12.0
 tensorflow==1.13.1
 Werkzeug==0.16.0
