@@ -1,6 +1,6 @@
 # Deploy-CNN-on-google-cloud
 This project shows how to deploy a deep convolutional neural network (CNN) on google cloud (App Engine). This is an instruction for how to use Keras and Flask to deploy a CNN model (InceptionResNetV2) on GCP. 
-Create a new python environment:
+Create a new python environment (I used python 3.6):
 
         pip install virtualenv
 Once virtualenv is installed you should create and activate a new python environment:
